@@ -1,0 +1,27 @@
+/* Styles */
+
+body{
+    background-image: #ffe200;
+
+}
+
+.titleBar{
+    background-image: linear-gradient(#61259e, #ffe293);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 85px;
+    color: #ffe200;
+    text-align: center;
+}
+
+#skyLine img{
+    opacity: 0.3;
+    width: 95vmax;
+    height: 45%;
+}
+
+#navBar a{
+    display: inline-flex;
+    font-size: 25px;
+    color: #ffe200;
+
+}
