@@ -1,5 +1,9 @@
 /* Styles */
 
+body{
+    background-color: #231f20;
+}
+
 .titleBar{
     background-image: linear-gradient(#61259e, #ffe293);
 }
@@ -44,30 +48,45 @@
 }
 
 .content{
-    background-color: #ffe200;
-    background-image: url(../img/Columbus-SC2.jpg);
+    background-color: #231f20;
+    background-image: url(../img/ColumbusCrewLogo-3.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 100vmax;
     display: inline-flex;
-    padding-right: 100vw;
     column-count: 3;
 }
 
 .crewNews{
     padding-top: 40px;
     padding-left: 75px;
-    padding-right: 75px;
+    padding-right: 40px;
 }
 
 .groupNews{
     padding-top: 40px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 
-.twitterFeed{
+#twitterFeed{
+    width: 450px;
     padding-top: 40px;
-    padding-left: 100px;
-    padding-right: 75px;
 }
+
+/* Page Two Style Begins */
+
+.songs{
+    display: inline-flex;
+    margin: 5px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: #ffe200;
+}
+
+#songTitle{
+    text-decoration: underline;
+    font-size: 35px;
+    margin: 3px;
+}
+
